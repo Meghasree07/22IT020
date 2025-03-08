@@ -1,11 +1,11 @@
-name: hello-world-meghasree
+name: docker-pipeline-meghasree
 on: push
 jobs:
-  my-job:
+  docker-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Print your name
-        run: echo "Hello World - Megha sree"
+      - name: Print your register_number
+        run: echo "Hello World - 22it020"
 
       - name: Checkout
         uses: actions/checkout@v4
